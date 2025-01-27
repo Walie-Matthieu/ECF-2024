@@ -88,3 +88,14 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* Media Queries pour les écrans plus petits */
+@media (max-width: 768px) {
+  h1, h2, h3 {
+    font-size: 1.2em;
+  }
+
+  .photo-singes {
+    max-height: 300px;
+  }
+}
